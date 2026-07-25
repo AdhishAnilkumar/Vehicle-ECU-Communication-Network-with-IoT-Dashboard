@@ -19,7 +19,6 @@ void setup() {
  accel.begin();
 accel.setRange(ADXL345_RANGE_2_G);
 pinMode(ledpin,OUTPUT);
-
   mcp2515.reset();
   mcp2515.setBitrate(CAN_500KBPS, MCP_8MHZ);  
   mcp2515.setNormalMode();
@@ -30,11 +29,9 @@ void loop() {
   
 sensors_event_t event;
   accel.getEvent(&event);
-
   float x=event.acceleration.x;
   float y=event.acceleration.y;
   float z=event.acceleration.z;
-
   float mag =sqrt(x*x+y*y+z*z);
 
 
@@ -52,7 +49,6 @@ canMsg.can_dlc = 1;
 canMsg.data[0] = impact ? 1 : 0;
 
 mcp2515.sendMessage(&canMsg);
-
   Serial.println(mag);
   delay(10);
 
