@@ -21,8 +21,8 @@ void setup() {
   u8g2.begin();
 
   char auth[] = BLYNK_AUTH_TOKEN;
-   char ssid[] = "Anil";
-   char pass[] = "0505603067";
+   char ssid[] = ""; //Write  valid ssid
+   char pass[] = ""; //Valid network password
 
   Blynk.begin(auth,ssid,pass);
 
