@@ -14,6 +14,7 @@
 * Accelerometer ADXL345<br>
 
 **Tools Used**:Arduino Uno IDE,Blynk<br>
+<br>
 **Theory:**<br>
 * **CAN Protocol**:CAN stands for Controller Acess Network.It is a robust, message-based serial communication protocol developed for real-time communication between multiple Electronic Control Units (ECUs) nodes over a shared communication bus. This protocol is usually inmplemented in Automobiles where several ECU or Electronic Control Units communicates each other.<br>
 
