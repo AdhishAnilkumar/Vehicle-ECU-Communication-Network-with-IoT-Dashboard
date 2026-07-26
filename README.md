@@ -30,6 +30,12 @@ In this project the bus topology conists of 2 Arduino Unos and an ESP32 Dev Modu
   * Uses RFID module acting as Security Lock for the vehicle.
   * If incorrect attempt found ,Vehichle remains closed and notifies on diashbaord via Blynk.
   * If correct entry, lock opens for 3 seconds and then closes.Required data sent via CAN bus.
+<br>
+
+**Circuit Setup**
+
+  <img width="1600" height="1202" alt="Circuit Setup" src="https://github.com/user-attachments/assets/839d989e-60cc-4fd0-a558-9a5f1fe84da8" />
+
 
   
   
