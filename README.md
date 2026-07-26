@@ -18,7 +18,7 @@
 **Theory:**<br>
 * **CAN Protocol**:CAN stands for Controller Acess Network.It is a robust, message-based serial communication protocol developed for real-time communication between multiple Electronic Control Units (ECUs) nodes over a shared communication bus. This protocol is usually inmplemented in Automobiles where several ECU or Electronic Control Units communicates each other.<br>
 
-In this project the bus topology conists of 2 Arduino Unos and an ESP32 Dev Module where the Arduinos act as separate ECU nodes communicating to the ESP32 .Two wired (CAN_H and CAN_L) differential CAN bus is used to communicate  between the ECUs and ESP32.<br>
+In this project the bus topology consists of 2 Arduino Unos and an ESP32 Dev Module where the Arduinos act as separate ECU nodes communicating to the ESP32 .Two wired (CAN_H and CAN_L) differential CAN bus is used to communicate  between the ECUs and ESP32.<br>
 
 **ECU Description**<br>
 * Arduino Uno 1: Airbag Deployment/Activation
