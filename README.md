@@ -36,6 +36,13 @@ In this project the bus topology consists of 2 Arduino Unos and an ESP32 Dev Mod
 
   <img width="1600" height="1202" alt="Circuit Setup" src="https://github.com/user-attachments/assets/839d989e-60cc-4fd0-a558-9a5f1fe84da8" />
 
+<br>
+
+**Dashbaord **
+
+<img width="346" height="757" alt="image" src="https://github.com/user-attachments/assets/9f107a9e-5fbb-448c-8b4a-ed53f811b9f4" />
+
+
 
   
   
