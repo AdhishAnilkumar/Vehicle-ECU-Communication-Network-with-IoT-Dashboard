@@ -22,7 +22,7 @@ In this project the bus topology consists of 2 Arduino Unos and an ESP32 Dev Mod
 
 **ECU Description**<br>
 * Arduino Uno 1: Airbag Deployment/Activation
-  * Implemented using Accelerometer and LED to signal Airbag axtivation.
+  * Implemented using Accelerometer and LED to signal Airbag activation.
   * To demonstate crash,tap on the breadbaord
   * Via CAN the data is sent to ESP32 printing status on SSD1306 screen and notified on dashboard via Blynk.
 
